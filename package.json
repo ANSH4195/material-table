@@ -2,6 +2,7 @@
   "name": "material-table",
   "version": "0.1.0",
   "homepage": "https://ansh4195.github.io/material-table",
+  "proxy": "https://my-json-server.typicode.com/ansh4195/material-table",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.3",
