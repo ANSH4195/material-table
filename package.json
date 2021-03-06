@@ -1,7 +1,7 @@
 {
   "name": "material-table",
   "version": "0.1.0",
-  "proxy": "http://127.0.0.1:5000",
+  "homepage": "https://ansh4195.github.io/material-table",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.3",
@@ -26,6 +26,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "json-server": "json-server --watch db.json --port 5000",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "concurrently \"npm start\" \"npm run json-server\""
   },
   "eslintConfig": {
